@@ -10,13 +10,13 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "https://sujisundarraj.github.io/Suji-Web-Profilo/image/logo_512.png",
+      "src": "https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/image/logo_512.png",
       "type":  "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "https://sujisundarraj.github.io/Suji-Web-Profilo/image/logo_192.png",
+      "src": "https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/image/logo_192.png",
       "type":  "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
