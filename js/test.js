@@ -8,14 +8,6 @@ var submitRequred = document.getElementById('submit-requred');
 let header = document.querySelector('header');
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-
-$(document).ready(function(){
-  $('#btnDownload').click(function(e){
-    e.preventDefault();
-    window.location.href="https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/js/resume.pdf"
-  });
-});
-     
      
 window.addEventListener('scroll', () => {
   header.classList.toggle('shadow', window.scrollY > 0);
@@ -203,3 +195,12 @@ function triggerFunction() {
 reloadButton.addEventListener("click", triggerFunction);
 //call triggerFunction when page loads
 window.onload = () => triggerFunction();
+
+function downloadResume(){
+  $(document).ready(function(){
+    $('#btnDownload').click(function(e){
+      e.preventDefault();
+      window.location.href="https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/js/resume.pdf"
+    });
+  });
+}
