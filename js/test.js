@@ -12,7 +12,7 @@ let navbar = document.querySelector('.navbar');
 $(document).ready(function(){
   $('#btnDownload').click(function(e){
     e.preventDefault();
-    window.location.href="resume.pdf"
+    window.location.href="https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/js/resume.pdf"
   });
 });
      
