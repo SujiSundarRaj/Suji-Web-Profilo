@@ -304,6 +304,11 @@ h3{
   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
   overflow-wrap: break-word;
 }
+.contact-address i{  
+padding-right: 10px;
+    color: #033a80;
+}
+
 .contact-form {
   display: grid;
   place-items: center;
