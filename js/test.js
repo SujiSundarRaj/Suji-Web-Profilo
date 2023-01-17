@@ -114,19 +114,7 @@ function validateMessage() {
 }
 
 function validateCaptcha(){
-  var yourCaptcha = document.getElementById('user-input').value;
-  console.log("inn",yourCaptcha, text)
-  if (text === yourCaptcha) {
-    captchaRequired.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
-    return true;
-  } else {
-    captchaRequired.innerHTML = 'Invalid Captcha';
-    return false;
-    // triggerFunction();
-  }
-}
-
-function validateCaptcha(){
+  console.log("in)
   var yourCaptcha = document.getElementById('user-input').value;
   console.log("inn",yourCaptcha, text)
   if (text === yourCaptcha) {
