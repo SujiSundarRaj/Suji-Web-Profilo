@@ -125,6 +125,20 @@ function validateCaptcha(){
     // triggerFunction();
   }
 }
+
+function validateCaptcha(){
+  var yourCaptcha = document.getElementById('user-input').value;
+  console.log("inn",yourCaptcha, text)
+  if (text === yourCaptcha) {
+    captchaRequired.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+    return true;
+  } else {
+    captchaRequired.innerHTML = 'Invalid Captcha';
+    return false;
+    // triggerFunction();
+  }
+}
+
 function validateSubmit() {
   if (!validateName() || !validatePhone() || !validateEmail() || !validateSubject()|| !validateMessage() || !validateCaptcha()) {
     submitRequred.style.display = 'flex';
@@ -138,7 +152,6 @@ function validateSubmit() {
 function viewCurrencyConverter(){
   console.log("test")
 }
-
 
 let userInput = document.getElementById("user-input");
 let canvas = document.getElementById("canvas");
@@ -198,7 +211,7 @@ function triggerFunction() {
   text = [...text].sort(() => Math.random() - 0.5).join("");
   drawStringOnCanvas(text);
 }
-// //call triggerFunction for reload button
-// reloadButton.addEventListener("click", triggerFunction);
+//call triggerFunction for reload button
+reloadButton.addEventListener("click", triggerFunction);
 //call triggerFunction when page loads
 window.onload = () => triggerFunction();
