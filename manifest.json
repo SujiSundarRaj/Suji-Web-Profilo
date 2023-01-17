@@ -1,8 +1,8 @@
 {
   "short_name": "Web Profilo",
   "name": "Suji's Web Profilo",
-  "id":"https://sujisundarraj.github.io/Suji-Web-Profilo",
-  "start_url": "https://sujisundarraj.github.io/Suji-Web-Profilo",
+  "id":"https://sujisundarraj.github.io/Suji-Web-Profilo/",
+  "start_url": "https://sujisundarraj.github.io/Suji-Web-Profilo/",
   "description":"Suji Sundar Raj Web Profilo",
   "background_color": "#ffffff",
   "orientation":"any",
@@ -10,13 +10,13 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/image/logo_512.png",
+      "src": "https://sujisundarraj.github.io/Suji-Web-Profilo/image/logo_192.png",
       "type":  "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "https://github.com/SujiSundarRaj/Suji-Web-Profilo/blob/main/image/logo_192.png",
+      "src": "https://sujisundarraj.github.io/Suji-Web-Profilo/image/logo_192.png",
       "type":  "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
