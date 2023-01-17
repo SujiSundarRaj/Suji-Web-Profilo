@@ -304,9 +304,8 @@ h3{
   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
   overflow-wrap: break-word;
 }
-.contact-address .fas{  
-padding-right: 10px;
-    color: #033a80;
+.contact-address .pdl{  
+padding-left: 10px;
 }
 
 .contact-form {
