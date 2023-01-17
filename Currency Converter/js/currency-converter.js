@@ -95,7 +95,8 @@ function getExchangeRateValue() {
     const toCurrencyLc = toCurrency.value.toLowerCase();
     let value = inputAmount.value;
     //http://www.floatrates.com/daily/{currency code}}.json - api used for the currency covertion
-    let url = `http://www.floatrates.com/daily/${fromCurrencyLc}.json`;
+    let url = `https://www.floatrates.com/daily/${fromCurrencyLc}.json`;
+    console.log("url", url);
     fetch(url).then(response => response.json()).then(data => {
         let toCurrencyDet = data[toCurrencyLc];
         let exchangeRate = (toCurrencyDet.rate * value).toFixed(2);;
