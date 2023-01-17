@@ -1,7 +1,7 @@
 self.addEventListener("install", (event) => {
     event.waitUntill(
         caches.open("static").then(cache => {
-            return cache.addAll(["./",
+            return cache.addAll(["https://sujisundarraj.github.io/Suji-Web-Profilo/",
           "https://sujisundarraj.github.io/Suji-Web-Profilo/about.html",
             "'https://sujisundarraj.github.io/Suji-Web-Profilo/contact.html",
             "'https://sujisundarraj.github.io/Suji-Web-Profilo/experience.html",
