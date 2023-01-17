@@ -104,7 +104,7 @@ header.shadow {
   padding-left: 12%;
 }
 .home-img img {
-  width: 60%;
+  width: 70%;
 }
 .home-text span {
   font-size: var(--medium-font);
@@ -144,7 +144,7 @@ header.shadow {
   width: 81%;
 }
 .about-text{
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .about-text p {
   font-size: var(--p-font);
